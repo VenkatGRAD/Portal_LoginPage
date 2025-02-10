@@ -1,0 +1,333 @@
+* {
+  margin-left: 12px;
+  margin-right: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(6, 6, 6);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.logo h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: rgb(54, 112, 228);
+}
+
+.links a {
+  font-size: 0.9rem;
+  color: rgba(168, 169, 171, 0.841);
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.buttons .loginBttn {
+  padding: 0.6rem;
+  border-radius: 18px;
+  width: 6rem;
+  border: 1px solid rgb(215, 218, 220);
+  font-size: 0.9rem;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.buttons .loginBttn:hover {
+  border: none;
+  color: rgb(54, 112, 228);
+  box-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+.buttons .signupBttn:hover {
+  color: rgb(54, 112, 228);
+  box-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+
+.buttons .signupBttn {
+  padding: 0.6rem;
+  border-radius: 18px;
+  width: 6rem;
+  border: none;
+  font-size: 0.9rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* banner */
+
+.banner {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  background-image: url(Untitled\ design.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner .heading {
+  width: 38rem;
+}
+
+.banner .heading h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.banner .subHeading {
+  width: 25rem;
+  margin-top: -2rem;
+  background: transparent;
+  text-align: center;
+  height: 80px;
+}
+
+.banner .subHeading p {
+  color: rgba(255, 255, 255, 0.877);
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.banner .buttons {
+  background: transparent;
+}
+.banner .buttons .generateBttn:hover {
+  color: rgb(54, 112, 228);
+  box-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+.banner .buttons .generatelaterBttn:hover {
+  border: none;
+  color: rgb(54, 112, 228);
+  box-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+
+.banner .buttons .generateBttn {
+  padding: 0.7rem;
+  border-radius: 18px;
+  width: 10rem;
+  border: none;
+  font-size: 0.8rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.banner .buttons .generatelaterBttn {
+  padding: 0.7rem;
+  border-radius: 18px;
+  width: 10rem;
+  border: none;
+  font-size: 0.8rem;
+
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+}
+
+.banner .buttons {
+  margin-top: 1rem;
+}
+
+.demo-img-cont {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.demo-img-cont img {
+  width: 70%;
+}
+
+.key-points-cont {
+  margin-top: 8rem;
+  height: 500px;
+  margin-bottom: 2rem;
+}
+
+.key-points-cont .heading {
+  width: 28%;
+}
+
+.key-points-cont .heading h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.key-points-cont .para {
+  margin-top: -50px;
+  color: rgb(119, 119, 119);
+}
+
+.key-points-cont .para p {
+  color: rgb(148, 148, 148);
+  font-weight: 400;
+}
+
+.point-in-cards {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.point-in-cards .cont {
+  padding: 2rem;
+  width: 22rem;
+  height: 12rem;
+}
+
+.point-in-cards .cont h3 {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.point-in-cards .cont p {
+  color: rgb(119, 119, 119);
+  margin-top: -25px;
+  font-size: 1rem;
+}
+
+.point-in-cards .cont img {
+  width: 3.5rem;
+}
+
+.card-heading {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: end;
+}
+
+.card-heading h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.cards-cont {
+  color: white;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards-cont .card {
+  height: 430px;
+  width: 380px;
+  border-radius: 10px;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-cont .card img {
+  height: 235px;
+  border: 1px solid rgb(123, 123, 123);
+  border-radius: 10px;
+}
+
+#card2 img {
+  height: 235px;
+  width: 360px;
+}
+
+.card-texts h2 {
+  font-weight: 100;
+}
+
+.card-texts p {
+  color: rgb(119, 119, 119);
+}
+
+.climax-why-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom right,
+    rgb(49, 49, 49),
+    rgb(91, 91, 91)
+  );
+  margin-top: 125px;
+}
+
+.climax-why-section .heading {
+  background: transparent;
+}
+
+.climax-why-section .heading h2 {
+  background: transparent;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 100;
+}
+
+.climax-why-section .answer p {
+  background: transparent;
+}
+
+.climax-why-section .answer {
+  margin-top: -40px;
+  background: transparent;
+  color: rgb(158, 158, 158);
+  text-align: center;
+  width: 40%;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.climax-why-section .img-cont {
+  background: transparent;
+}
+
+.climax-why-section .img-cont img {
+  width: 1300px;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.footer-cont {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 125px;
+  border-bottom: 0.1px solid white;
+  padding-bottom: 50px;
+}
+
+.footer-cont .footer-logo h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: rgb(54, 112, 228);
+}
+.footer-cont .footer-logo h1 {
+  margin-left: 20px;
+}
+
+footer .links {
+  margin-left: 22em;
+}
+
+footer .links a {
+  color: gray;
+}
+footer .links a:hover {
+  color: rgb(206, 206, 206);
+}
